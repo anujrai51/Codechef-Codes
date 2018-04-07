@@ -11,7 +11,8 @@ int main()
     {
         cin>>p;    //No. entered and stored as single string
         l=p.length();
-        s+=p.substr(7,l-8);
+        s+=p.substr(7,l-8);  
+	//s+=p (While we enter only numbers)    
         s+="\n";
     }
 	filex.open("TEXTFILE.txt",ios::app);
@@ -28,7 +29,6 @@ First Run:
 printf(9192)
 printf(345)
 printf(987)
-
 
 Contents of TEXTFILE.txt:
 9192
