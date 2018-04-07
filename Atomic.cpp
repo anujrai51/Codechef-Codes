@@ -19,3 +19,33 @@ int main()
     filex.close();
     return 0;
 }
+
+
+/*
+Output:
+First Run:
+3
+printf(9192)
+printf(345)
+printf(987)
+
+
+Contents of TEXTFILE.txt:
+9192
+345
+987
+
+Second Run:
+3
+printf(221)
+printf(35246225427544426)
+printf(1)
+
+Contents of TEXTFILE.txt:
+9192
+345
+987
+221
+35246225427544426
+1
+*/
